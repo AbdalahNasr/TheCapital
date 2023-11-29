@@ -1,0 +1,89 @@
+*{
+margin: 0; 
+padding: 0;
+}
+#capital SPan{
+    color: rgb(62, 86, 195);
+    font-size: 40px
+    ;
+}
+#capital h3{
+    font-family: georgia;
+}
+ #user{
+    background-color: gray; /* light gray */
+
+} 
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* dark gray */
+  }
+
+.myPost {
+    background-color: rgba(90, 104, 107, 0.921);
+    border: 3px solid rgb(69, 91, 138);
+    width: 25%;
+    
+    text-align: center;
+}
+.navbar{
+background-color: rgba(red, green, blue,0,5);
+}
+
+.mySecondPost {
+    background-color: blueviolet;
+    border: 6px solid rgba(112, 181, 218, 0.868);
+    width: 25%;
+    text-align: center;
+}
+
+.allPosts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+color: white;
+}
+.allPosts h1, h2, h3, h4, h5, h6{
+    color: white;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* .news{
+background-color:black !important ;    
+} */
+
+
+
+
+
+.box select {
+    background-color: #0563af;
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.box:hover::before {
+    color: rgba(255, 255, 255, 0.956);
+    background-color: rgba(255, 255, 255, 0.297);
+}
+
+.box select option {
+    padding: 30px;
+}
+
+a {
+    color: #337ab7; /* blue */
+  }
